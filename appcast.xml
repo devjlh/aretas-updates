@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Aretas</title>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Fri, 24 Jul 2026 08:48:16 -0600</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://devjlh.github.io/aretas-updates/Aretas.dmg" length="67384038" type="application/octet-stream" sparkle:edSignature="pEZe9BcCfql7AyhGkLvrNzzirTP5DNm5z7TeDqxS7XdEu+o6SYz3Cpett+E2kH9em/dMDMjiVjKJTFwBLv8TAA=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: Ou2JWbgcTAPYZYSIvcbeBoZgDG63UbpO3we4zjRjjAlLz5EyblO1MF6MRjuH+RN15yhgJ5dZPUTDX9dlUuMuAg==
+length: 1010
+-->
