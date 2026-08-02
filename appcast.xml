@@ -1,18 +1,95 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Aretas</title>
         <item>
-            <title>0.1.0</title>
-            <pubDate>Fri, 24 Jul 2026 08:48:16 -0600</pubDate>
-            <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <title>0.1.6</title>
+            <pubDate>Sat, 01 Aug 2026 19:33:34 -0600</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://devjlh.github.io/aretas-updates/Aretas.dmg" length="67384038" type="application/octet-stream" sparkle:edSignature="pEZe9BcCfql7AyhGkLvrNzzirTP5DNm5z7TeDqxS7XdEu+o6SYz3Cpett+E2kH9em/dMDMjiVjKJTFwBLv8TAA=="></enclosure>
+            <description sparkle:format="markdown"><![CDATA[## What's new in Aretas 0.1.6
+
+*2026-08-01*
+
+Aretas is much more careful about joining two records together — and it now shows you the ones it wasn't sure about.
+
+- Aretas now only merges two records automatically when it has hard proof they are the same: the same email address, the same phone number, or an identical company name. A similar-looking name at the same company is no longer enough.
+- Everything it wasn't sure about goes to a new 'Not Sure' list in Review, in plain language — 'Jonathan Weatherby and Jonathon Weatherby write from the same company address, and the names are about 96% alike. That wasn't enough to join them.' Nothing there has been written to your Contacts.
+- The Overview screen now tells you how many of your contacts look like more than one person mixed together. Aretas can find these but cannot separate them yet, and it says so rather than implying a fix.
+- 'Save a Copy of Everything…' (File menu) writes a complete, verified copy of everything Aretas knows to a disk you choose. It checks its own work and refuses to leave behind anything it could not verify.
+- Reading your mail is dramatically faster. The previous version would have taken weeks to work through a large mailbox; it now finishes in a fraction of that.
+- Undo tells you what actually happened. Previously, if an undo only partly succeeded, Aretas said nothing at all — including when it had left cards in place because it couldn't read them.
+- Messages and call history no longer skip past anything they couldn't read. Previously a single unreadable row could be silently passed over and never looked at again.
+- When a screen can't load something, it now says so instead of showing an empty list. 'We couldn't check' and 'there's nothing there' are different answers, and Aretas no longer gives the second when it means the first.
+- Aretas can update itself. Auto-update had never actually worked — this is the first release that reaches you on its own.
+]]></description>
+            <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas-0.1.6-11.dmg" length="59222198" type="application/octet-stream" sparkle:edSignature="snse+MX3FgKEW//Tf4sjKssAfla/rgVuk7NjIFWYLuoKoLVEvr8amqF9qKYeSEY6OY+5242zWBvZjpospXPdAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas11-10.delta" sparkle:deltaFrom="10" length="5587266" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8cgr7Ziw29tjXCZngShrsxuqV84yUnGQWVEGX9Lo9xKSoEaelFReZFmRG+iRDlqS1DxznaHOgKNDe5KZYwSTAg=="/>
+                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas11-9.delta" sparkle:deltaFrom="9" length="5605498" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7FbPZ+pDBbRM1kLatwc1t/MmyJSmjiC+4jud8pBS5lRf/EYxCHABKrLSljpvy2r4EUuDvKMjEP1khPN0EA+bCw=="/>
+                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas11-8.delta" sparkle:deltaFrom="8" length="5837510" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+X1/WNgEzPz7ieD3QD1sZdoMfrVaivJPn5wQlM7jUqokyua07ADTKOOi0U2NnP7Wj26guABbepuVg02kjO51CQ=="/>
+                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas11-7.delta" sparkle:deltaFrom="7" length="5908402" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QRqf+ZvtAoTCyCTry9vrhpO6dKDlAf/6xLf1V4POufA4vALUJPf/J2p4EyJD3m/h/S3ndujSKHJWSJxwOJcmDQ=="/>
+                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas11-6.delta" sparkle:deltaFrom="6" length="30405218" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="X5HovRVXgRwJ8jikxwep0x9W/ZvwbnS8TEcce7tDQVvcIqvickpg1bZoE8Qyyg3IR/mTN2aTt6iy6VF1sFfqDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.1.5</title>
+            <pubDate>Wed, 29 Jul 2026 17:24:49 -0600</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## What's new in Aretas 0.1.5
+
+*2026-07-29*
+
+Review now shows you what Aretas has already found — without re-running anything.
+
+- Open Review and you'll see the people and companies Aretas found in your mail, ready to approve. Until now that list only existed while a scan was running, so reopening the app showed you nothing.
+- The list is ordered by what's worth your attention: people who aren't in your Contacts yet, details that have changed since you last approved them, and conflicting information about the same person.
+- Aretas only says someone is missing from your Contacts when it has actually checked. If it hasn't been given access to your Contacts, it says the list isn't sorted that way rather than guessing.
+- Starting a scan no longer discards what was already found — you can go back to it.
+- Suggestions that came from deeper analysis are never pre-selected for you. Anything Aretas is less sure about waits for you to choose it.
+]]></description>
+            <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas-0.1.5-10.dmg" length="71719405" type="application/octet-stream" sparkle:edSignature="jtjZq63bD3Ip/OVvrXFpa+gEp6nodqJceBaHTzVb7R3lTT53H5nwmHMkxJPcEJu3+npdo9xnkgYvZFXqJMguCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://devjlh.github.io/aretas-updates/Aretas10-9.delta" sparkle:deltaFrom="9" length="3244882" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QRMUFnQYEBGoizL/YxRMvu3WW9orLKBVicaMEQVEok4mBgk4kltNWXyh35149vwLXXuL9Pp19hDmYv3xZv3ICA=="/>
+                <enclosure url="https://devjlh.github.io/aretas-updates/Aretas10-8.delta" sparkle:deltaFrom="8" length="3806950" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bkXO0OSMGKwcnPVAQ6wLU76VAxMYJFQ52hBNVBntkPzYkx20BsA1w8O7YNaE51vbLGAowBgyNRWADjKJLRB4AQ=="/>
+                <enclosure url="https://devjlh.github.io/aretas-updates/Aretas10-7.delta" sparkle:deltaFrom="7" length="4164142" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QCEZwviHsU9+kNsJnoHoVXOAFSxvbqus1wXMM7VZCZeFvUcls3iIaQFHfReuh1EZyu4SxwMt0oGsSzER2g6EAA=="/>
+                <enclosure url="https://devjlh.github.io/aretas-updates/Aretas10-6.delta" sparkle:deltaFrom="6" length="29447338" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gj6AuUXvxJ8aTWZBzTAOTZV4qVzGhX6YNa55Fj/Z+hMzsSycqDFBI9xPreRpA7htsU3QbhBMIDVFl2ZU9lPGBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.1.4</title>
+            <pubDate>Wed, 29 Jul 2026 11:02:22 -0600</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## What's new in Aretas 0.1.4
+
+*2026-07-29*
+
+Fixes for the things that broke when you clicked them.
+
+- Aretas no longer quits unexpectedly while connecting to Claude. The cause was a fault that only appeared once the app had a certain number of files open, which is why it happened on a real machine and never in testing.
+- Messages and Call History no longer open to a blank panel. Each now tells you what it found, or that it couldn't check — and always gives you a way to try again.
+- Every item in the sidebar opens its own screen. Some of them were showing the wrong one.
+- Switching between the tabs in Review no longer loses what a scan found, and can no longer start a second scan on top of one already running.
+- When something fails, Aretas says so instead of showing an empty screen. A failed scan no longer reports that you have nobody in your mailbox.
+]]></description>
+            <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas-0.1.4-9.dmg" length="71563236" type="application/octet-stream" sparkle:edSignature="9DLCSBNLfqWG21Zi2rsOaZzfhvO32pu+Mu0c+vL6nM3y7X4fZmm3eQP0pNqkENTxPPrgxwKJSs6indv0czZYDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://devjlh.github.io/aretas-updates/Aretas9-8.delta" sparkle:deltaFrom="8" length="3521806" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZrM+6+pFWzLWdtGnie3nHxLW70iGh0Bpq1jr4ajZJIrhiU3gV1nutLNQR69yGHhH/SLXbk28CNe1d2P2DUb2Dw=="/>
+                <enclosure url="https://devjlh.github.io/aretas-updates/Aretas9-7.delta" sparkle:deltaFrom="7" length="3949650" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3oa+Xdsq6pVCw/HK12hw45iNvPD5/bxal65JVfOgs1vORqFVLdV5zEF78j7aja1svyPAMMLzgFxuCbrsppqfCA=="/>
+                <enclosure url="https://devjlh.github.io/aretas-updates/Aretas9-6.delta" sparkle:deltaFrom="6" length="29279850" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IJCaee3i7dAHhzAk4mD7wE3gAYLQEc0CFBtdxW67LSzu92imt0njVPnUu7S694mvaf80+9UK5lScSjrX/QMtDQ=="/>
+            </sparkle:deltas>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: Ou2JWbgcTAPYZYSIvcbeBoZgDG63UbpO3we4zjRjjAlLz5EyblO1MF6MRjuH+RN15yhgJ5dZPUTDX9dlUuMuAg==
-length: 1010
+</rss>
+<!-- sparkle-signatures:
+edSignature: OMRPuYCC99ecUJ9SALeYVsL7lOlMBJfIWe2RpbmxjOx32IkZ7bxFFQt0wOUdnPSWyBgtIJg8HzD4Yn3TCLUyCQ==
+length: 11120
 -->
