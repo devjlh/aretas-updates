@@ -6,6 +6,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Aretas</title>
         <item>
+            <title>0.1.11</title>
+            <pubDate>Wed, 19 Aug 2026 11:03:02 -0600</pubDate>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>0.1.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## What's new in Aretas 0.1.11
+
+*2026-08-19*
+
+Opening Sources no longer freezes Aretas.
+
+- The Sources screen — where your mail accounts, Messages, and call history live — could lock the whole app up the moment it opened, with a spinning wait cursor and no way forward. It now opens smoothly and stays responsive.
+- Your information was never touched by this. It was only the screen struggling to draw itself; nothing was being read, changed, or sent while it was stuck.
+]]></description>
+            <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas-0.1.11-16.dmg" length="62534519" type="application/octet-stream" sparkle:edSignature="Sz+qVT0TKA3T+XOOxePd/BPIV0audSE3FaHmVLTo/bYHwAh42/vBCkUL5+RVD8kbQ9X43AzaqKUkjkBnl1KqCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas16-15.delta" sparkle:deltaFrom="15" length="1800326" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yuHBmFqq3QWnBsdlIAN60fls3GixJEMZLDdBaCF4uO5zU0KLb1g9N3dTmTmHD++iLu23glxHF+RfG+lmIdcGBg=="/>
+                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas16-14.delta" sparkle:deltaFrom="14" length="3426910" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hzxo6EyxZ+ShcXS7F/E5M7t2w2RdRyymWsc8xe4TR4c2q741ZggM+AxKlmFNpbwmmt13MdRko0zgMrNH4KuvAQ=="/>
+                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas16-13.delta" sparkle:deltaFrom="13" length="3967874" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7H7m2eOB72DQS5FQLBt9dDaIQOLkQLN7xb1VynlTjOGDkMsgzNhu1J7U+/2sRNYkVOyxAPuZgDl6AcCnRkdxCg=="/>
+                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas16-12.delta" sparkle:deltaFrom="12" length="5598590" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="joyS/J9s1sZoqIkb2uE2faIixCUjqaTZDVXeQZPlxOyrlA8VfOdyN43ZCiX38L+iWIDbwTfI+czOkCIKjV8FDg=="/>
+                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas16-11.delta" sparkle:deltaFrom="11" length="5978278" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eopvTFNNtVXOtdPLWu7LFA/w36/SU3QQ+sz2Y6/1/7DGVYej5lhRwbgedVujUKxiMiySAGEe7uqHuhr7oDNHCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1.10</title>
             <pubDate>Thu, 13 Aug 2026 14:31:10 -0600</pubDate>
             <sparkle:version>15</sparkle:version>
@@ -59,40 +83,9 @@ Aretas now tells you when an update turns off Messages access, and every waiting
                 <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas14-9.delta" sparkle:deltaFrom="9" length="7551534" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FdvFTSZEjLAvNbXoBQFM7evdYd0ALpQ4r0ZLf7PXwup6P/wKHGDFWHWycMJObipfNBU+8uWrOR1ZSD+YZg6mBQ=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>0.1.8</title>
-            <pubDate>Fri, 07 Aug 2026 09:27:31 -0600</pubDate>
-            <sparkle:version>13</sparkle:version>
-            <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## What's new in Aretas 0.1.8
-
-*2026-08-07*
-
-Aretas now waits until it has read everything, shows you what analysis costs, and asks before changing anything.
-
-- Fixed a rare freeze that could lock the app during its first big scan.
-- Review now waits until your mail, messages, and calls are fully read before showing results, and says what it is still reading.
-- New: ask Claude for a written summary of any correspondence report.
-- New: Aretas can notice when something changed about a person — a new job, a new number — and asks you before anything is updated.
-- New: help deciding an ambiguous contact detail, one at a time, with the cost shown before you start.
-- See what analysis costs as it happens, and set your own spending limit.
-- The Review tab now opens on Found — the people Aretas has found for you.
-- Screens now say when something could not be read, instead of showing a number that looks certain.
-- Reporting a problem now tells you exactly where your report goes.
-]]></description>
-            <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas-0.1.8-13.dmg" length="60998121" type="application/octet-stream" sparkle:edSignature="79nJMcIb0QvGELkAGWh5tNhI8aiDtbb7U0vmqOPzUVsuz1qYlqNj+PhKXRUvbXmKA9N2JiErAY6r3oWP9knGCQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas13-12.delta" sparkle:deltaFrom="12" length="4406174" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nJAYcY/pzGtHHSCSbR2GdoQZCG8JxtqY6kVs+92upi7nZyhWB5iVmDGQa8PWO+aOUNAYGfSWph9qIX3sqrFFDw=="/>
-                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas13-11.delta" sparkle:deltaFrom="11" length="4812154" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4BryzeVzzyI5d0ZI4tb7e6Ow9MZpzeVdGTpaDL9MjbZhFsbm8AZawuWaGq11PbyRviVWjBv2081P/1D2YFPwAA=="/>
-                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas13-10.delta" sparkle:deltaFrom="10" length="7239790" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3sgDxmw8YiDHwPsuwXrx8O3SZw8AT4zQF571b8Aa+w/SbezbT0LUJylBbGEmoMHhBWNgNSoVJ3YIEbrPone4Aw=="/>
-                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas13-9.delta" sparkle:deltaFrom="9" length="7291922" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="SL45yAg4Chjrl/p4wNEtI0m7D8amfaI03Q0CUOdNIZXkdadhapEHav7usogSiEHKz3GcBZNBNku7xt6pnVztBg=="/>
-                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas13-8.delta" sparkle:deltaFrom="8" length="7421942" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="J/0HGlfviD8Vvy52ZkgQFXUeuu2WodsjGy+ENz5OcZrKCoZWb375L1vzpq1iuEbCt18e7rR2r+aWNGkc/WpKAg=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: KSfwbA5yI2GpxQM0vhgF+FsquzoE4js2mts2frDBFWR7w7GdO9YBvU+pHl9B8TUNTG6WEzu09APyMVUEb4oyCA==
-length: 10245
+edSignature: KE4dMQc2D/TDbwkReLlbVk0qu8gikqEg8SDrhi9CoFMflNFa/nNTFAb2eSjB91lpKZKadxgiJJ4beXbZkDI7Cg==
+length: 9737
 -->
