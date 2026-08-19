@@ -6,6 +6,32 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Aretas</title>
         <item>
+            <title>0.1.13</title>
+            <pubDate>Wed, 19 Aug 2026 15:55:02 -0600</pubDate>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>0.1.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## What's new in Aretas 0.1.13
+
+*2026-08-19*
+
+Introductions now surfaces the people you've just met, and Tagging is now Lists — the same word your iPhone uses.
+
+- The Tagging tab is now called Lists, matching what you see on your iPhone under Contacts. A contact you add to a List here reconciles into that same List on your phone, so the two never drift apart.
+- Introductions now looks across your most recent conversations in every account each time it runs, so someone you just met by email or text surfaces right away instead of waiting behind your older mail. Cards stay in your queue until you review them — nothing ages out on its own.
+- Screens that could briefly freeze while a large list or a big mailbox loaded now stay responsive, and Introductions stays quick even while the rest of your mail is still downloading in the background.
+- The overview no longer briefly claims no accounts are connected while it is still loading them.
+]]></description>
+            <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas-0.1.13-18.dmg" length="62761308" type="application/octet-stream" sparkle:edSignature="qXrmgLUGlxVSjzU/4QCrvK3/pzsmSex3KJbl/GywGMH+WU/TtMytqSZlcLvn62bd9FKpUthhhzM2Oi7i7SlYAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas18-17.delta" sparkle:deltaFrom="17" length="2635762" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tHWCgPVNwvcsbEraTneXqN+UjiV6AtydJ++Qtgtgazrz49xzev9/6cQoS4I3Eure+iRvBTyxNqzcl72S/qcuDw=="/>
+                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas18-16.delta" sparkle:deltaFrom="16" length="2834702" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xikdI5ap0DgW6o8hq1HBvyQG/6tuB4OX5qHSFaKSGZ/5QGp1qlBMyClwaWzjHqUoi41D5r3D1IsCVE6LjGwWBg=="/>
+                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas18-15.delta" sparkle:deltaFrom="15" length="2803902" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="052G21m+jhAdIADPWBcQs/8g8h7e9h7VN4DYeNPm7uu2f5sPPsjJWuSdvIcMktBXbZmsqUFobove/ars+7Z0Dw=="/>
+                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas18-14.delta" sparkle:deltaFrom="14" length="3888214" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="O8JFsl+PxSd41IK9nA9cF36Fl9/UChKbr4fjXT856moIrcpFj2DC8d7O3Xo4WPhKr0pg52g2xGVICx4pZketAA=="/>
+                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas18-13.delta" sparkle:deltaFrom="13" length="4335146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0K2y0fRgnOCjEbqDz7Xy4cq4Q/35/zq64KIVFFW3/6bgjVKJVqPBt16MZBsdT7O7cybFRlmHkCD3P2bxdmKsCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1.12</title>
             <pubDate>Wed, 19 Aug 2026 12:20:53 -0600</pubDate>
             <sparkle:version>17</sparkle:version>
@@ -54,35 +80,9 @@ Opening Sources no longer freezes Aretas.
                 <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas16-11.delta" sparkle:deltaFrom="11" length="5978278" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eopvTFNNtVXOtdPLWu7LFA/w36/SU3QQ+sz2Y6/1/7DGVYej5lhRwbgedVujUKxiMiySAGEe7uqHuhr7oDNHCQ=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>0.1.10</title>
-            <pubDate>Thu, 13 Aug 2026 14:31:10 -0600</pubDate>
-            <sparkle:version>15</sparkle:version>
-            <sparkle:shortVersionString>0.1.10</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## What's new in Aretas 0.1.10
-
-*2026-08-13*
-
-The work finished after the last update is finally in the app you are running — the Connections settings, the workspace tree under Tasks, and sending a task where it needs to go.
-
-- Settings now has a Connections tab: each service Aretas can talk to has its own place to sign in, and anything your workplace manages asks your permission first.
-- The Tasks section now shows your workspaces as a tree, so you can see where a task would go before you send it.
-- Sending a task out shows you exactly what will leave your Mac, and asks you to confirm, before anything is shared.
-- If a meeting transcription gets stuck, a problem report now includes that on its own, so you do not have to describe it.
-- The Messages and call history switches stay available even when Aretas cannot open your mail — trouble with one source no longer hides the others.
-- Review no longer sits waiting when nothing is running. It opens, and says plainly what has and has not been read.
-- Topic results and who-told-you answers can now be saved as a PDF or a Word file, or sent to your Drive, the same as the other two reports.
-- Correcting an earlier note: when you decide two records are the same, that decision is recorded and Aretas will fold them together in a later update. Nothing has been folded yet.
-]]></description>
-            <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas-0.1.10-15.dmg" length="62511694" type="application/octet-stream" sparkle:edSignature="mpEQQdqprDrilmVMjK14b+VGZ9NBQG1my07VoXghDqJZP4CeUQiYX0h+sC1g9E6TogkVhPj1L8hOM5j4NA+FDw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas15-10.delta" sparkle:deltaFrom="10" length="8290258" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZFxyv8MXYDvjwMyem/No2v9ev0aK3NxUwD1EwX2C587mv6TpRHE5LkqKI54BSbY7l8Goh34XlB1Mk9Ktt7iYDA=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: CaHWWN/Lt/4onUCKXL/pTyqlM/j6ld9o8d8i6fKi5JU91LMSUZlxFuHtJVNV2vjXUfIrTJ+OwF0gDtyikm/cDw==
-length: 9566
+edSignature: ljZVbUtg7rCxgzj7SwrNzLNf9i5hP4YvF9R6UvgTWSryLvbluQCeN/3MIUzFPKT+3ZMQPrV600HGhmM3LiSzAA==
+length: 10804
 -->
