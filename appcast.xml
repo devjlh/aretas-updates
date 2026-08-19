@@ -6,6 +6,31 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Aretas</title>
         <item>
+            <title>0.1.12</title>
+            <pubDate>Wed, 19 Aug 2026 12:20:53 -0600</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>0.1.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## What's new in Aretas 0.1.12
+
+*2026-08-19*
+
+Aretas now reads your whole mailbox, not just your most recent messages.
+
+- On a very large Gmail account, the first scan used to stop after roughly the newest ten thousand messages, so older mail was never brought in. Aretas now works through your mail one period at a time and brings in the whole account, however large.
+- If a scan is interrupted, it picks up where it left off — it does not start over, and it does not re-read the parts it already has.
+- Every message is still accounted for exactly once: nothing is read twice, and nothing is quietly skipped.
+]]></description>
+            <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas-0.1.12-17.dmg" length="62533318" type="application/octet-stream" sparkle:edSignature="xxLr0YlXzegGGEnvMbfotk4z4Zgcp2YG9yQiNNO+X+9yDJDBJhcpCOj/bqhPolaAXDU5F/aluTS1A5be8DDJAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas17-16.delta" sparkle:deltaFrom="16" length="2354946" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vsems9PMAIGEMKU6fxGTFRXB6WAhELmjJWoXTZpFGx/DA3InSJsy1bF9/rjjo4/TLUwL2RxU4pMdspDacQJ0Cw=="/>
+                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas17-15.delta" sparkle:deltaFrom="15" length="2317142" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7YNVIP08eeDJM8QVd7RtfBlKhm6KsCnxyINUana3a5m1s5xmglFFzTJ8IQ+89zjrY8WEC2AstF54B5xH7m4yAA=="/>
+                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas17-14.delta" sparkle:deltaFrom="14" length="3501534" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OPbvi45ayt296RNunhUdwOAxXhMzUnK2M3Pd9A8XxIw2T1oMIG0gBTnwknhbQC+KYQBjInX8N+6e1nljfb8IBA=="/>
+                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas17-13.delta" sparkle:deltaFrom="13" length="4039750" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5IbtaLMcC2CXa+P8M9WGoRSkUX02osM81/ljHcwFJlCk9MNa0RD3z89mhqU8HOrPl2c0eHy2BdXZpITOKYDoCQ=="/>
+                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas17-12.delta" sparkle:deltaFrom="12" length="5667046" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JeQB6GFEJh4DHRkKjyYcUVShTVB8Ye5gGAVvMjEPpetf332hLWBwc8JUR4PIzgTG+P112Gti9FZ/QSLlc9+pBQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1.11</title>
             <pubDate>Wed, 19 Aug 2026 11:03:02 -0600</pubDate>
             <sparkle:version>16</sparkle:version>
@@ -55,37 +80,9 @@ The work finished after the last update is finally in the app you are running �
                 <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas15-10.delta" sparkle:deltaFrom="10" length="8290258" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZFxyv8MXYDvjwMyem/No2v9ev0aK3NxUwD1EwX2C587mv6TpRHE5LkqKI54BSbY7l8Goh34XlB1Mk9Ktt7iYDA=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>0.1.9</title>
-            <pubDate>Fri, 07 Aug 2026 12:11:12 -0600</pubDate>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## What's new in Aretas 0.1.9
-
-*2026-08-07*
-
-Aretas now tells you when an update turns off Messages access, and every waiting decision has a place to be decided.
-
-- If a macOS update switches off Aretas's access to Messages, Aretas now notices and shows you exactly how to turn it back on.
-- The things Aretas wasn't sure about can now be decided — fold two records together or keep them separate, one look at a time.
-- A new Tasks section shows commitments found in your meetings, each with the exact words that were said, for you to approve or decline.
-- Every analysis now shows what it cost right on its row, and unknown costs say so instead of showing a number.
-- Money is described the same way on every screen.
-- An answer you paid for now survives closing and reopening the app.
-]]></description>
-            <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas-0.1.9-14.dmg" length="61335398" type="application/octet-stream" sparkle:edSignature="JHPIQx1BowQp4eqDjcL5C0SdKyB1PpmH+etUbiXQvthinFG4lcW2+E9ENYU7OkhwWkI1M1a9rYP1SY+qF6nxBA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas14-13.delta" sparkle:deltaFrom="13" length="2908226" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qKumC6OmzbkUuSwOQwwbBVlTeL5L5t/+6aTmV1r6NdX6M0+Xy9G5WOc1lG1QPQSqDqaZV/nrTh81N6YGJ9NiCA=="/>
-                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas14-12.delta" sparkle:deltaFrom="12" length="4735366" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="coFLSNllpSl9MmqdIazDMMcnbclJ2vU/1U/WoaP877zsI9sZd0kzuozijlbKe+32tdx9HH4bJ+Lvy10ahduXCA=="/>
-                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas14-11.delta" sparkle:deltaFrom="11" length="5113382" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Hb/2WcOOwQUCWaxCL82AI1wFHiAMOyugFwnOzpplUQWaOaDtq0PIs9q5o4acshzFdxkK6/rTl4CyWwyICTE0Ag=="/>
-                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas14-10.delta" sparkle:deltaFrom="10" length="7516922" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KyUf9eA0dDlODZPgOlLDOsB1BJXT9jaMOVHEreWaHtd/5TEBywq1ZYWeeG9GGRt+UpoXHFO94EPgI+N9iZchAg=="/>
-                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas14-9.delta" sparkle:deltaFrom="9" length="7551534" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FdvFTSZEjLAvNbXoBQFM7evdYd0ALpQ4r0ZLf7PXwup6P/wKHGDFWHWycMJObipfNBU+8uWrOR1ZSD+YZg6mBQ=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: KE4dMQc2D/TDbwkReLlbVk0qu8gikqEg8SDrhi9CoFMflNFa/nNTFAb2eSjB91lpKZKadxgiJJ4beXbZkDI7Cg==
-length: 9737
+edSignature: CaHWWN/Lt/4onUCKXL/pTyqlM/j6ld9o8d8i6fKi5JU91LMSUZlxFuHtJVNV2vjXUfIrTJ+OwF0gDtyikm/cDw==
+length: 9566
 -->
