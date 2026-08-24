@@ -7,6 +7,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Aretas</title>
         <item>
             <title>0.1.14</title>
+            <pubDate>Mon, 24 Aug 2026 09:24:04 -0600</pubDate>
+            <sparkle:version>37</sparkle:version>
+            <sparkle:shortVersionString>0.1.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas-0.1.14-37.dmg" length="64411965" type="application/octet-stream" sparkle:edSignature="JFUMzDRqljnFGdELdE0EnmxM0+Ysjb460qMFnQGSE3VSYs7DvXi25+PWsdSuNGfhObHAK0kjkcakt0azTkhNBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas37-36.delta" sparkle:deltaFrom="36" length="1743290" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="C9dxsLbPCz7Qp6ugy7UIzII6w3vfoGiTvKiT+zjmEl/YZ4o7CloBHi6pJZGW22wc78/XkRR2yx4ws6yLzZAjCA=="/>
+                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas37-35.delta" sparkle:deltaFrom="35" length="1748930" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4nQ9CgyypXVJCUbkNwJDdmiXPJO/BEF/JnNIcXVOHT12jWiw94nkV93qsj5jCUbxlSNpp0FRCes1AZFL7932Bg=="/>
+                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas37-34.delta" sparkle:deltaFrom="34" length="2108174" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Zx9JP16AzAS3ZpHLmOtdgPb/ulRJ6Be1hGbrPU3emx0Y9Fs6n8SOAf8i7IfaXfJjEo7R0rAKz8GHlTaIPV8xAA=="/>
+                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas37-33.delta" sparkle:deltaFrom="33" length="2163634" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jPs9vNnRNzvn4EEL2HfD2rNLraSOFWN9vrF/G3dz3nGDfW9WiC8ZzjAUVb+RldBsshlASAGrZDj0v3jp5D06Dw=="/>
+                <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas37-32.delta" sparkle:deltaFrom="32" length="2245386" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HxmM4G72lHyMYrNOWs0sNO78CXZ9JFZiAiYJumjdRqiBTY7sYm9qbhh/acgAYW3NPl6iw8CswePPTubJUvZKBA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.1.14</title>
             <pubDate>Mon, 24 Aug 2026 08:13:35 -0600</pubDate>
             <sparkle:version>36</sparkle:version>
             <sparkle:shortVersionString>0.1.14</sparkle:shortVersionString>
@@ -45,17 +60,9 @@ Aretas now works through your whole mailbox on its own, so introductions and con
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas-0.1.14-35.dmg" length="64408361" type="application/octet-stream" sparkle:edSignature="1gO3qLUiESw+NgYkkxLc3kVCuQ2Cab6lzRgneFu8RZX23X8G/YspayyD97X8I88JyEYzSePS9ZeKCioG2IZOBg=="/>
         </item>
-        <item>
-            <title>0.1.14</title>
-            <pubDate>Mon, 24 Aug 2026 07:38:24 -0600</pubDate>
-            <sparkle:version>34</sparkle:version>
-            <sparkle:shortVersionString>0.1.14</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/devjlh/aretas-updates/releases/download/updates/Aretas-0.1.14-34.dmg" length="64401861" type="application/octet-stream" sparkle:edSignature="fOtV/3cykWV1zQ0srHNSSaqXyO+8we0m21Sn4YCuVKg/IxFipQGrS7ESP49MBoxapN60futeP9sQb3rRUwSZDA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 2kmGevxQnapJ9mj2CpmvM4ON1XXWoQoZbB4BlWcPvXU/uXTksUHNLccxD30vimGwpPZRZ8rE8iaV107ret87Bw==
-length: 5982
+edSignature: mJG3MC5hCTzIz4C9C6Hp7QrKmdFyhIQWIZ1eG+fhkoC+FUDEW8a98r3qo3kNs2QumYjnZ944+7EKIe1wCVlLAA==
+length: 8071
 -->
