@@ -1,0 +1,9 @@
+
+# Release archives live as GitHub RELEASE ASSETS, never in this repository.
+# Pages serves only appcast.xml, index.html and the .md release notes. Committing 64 MB
+# DMGs added ~800 MB of history that nothing ever downloaded from here.
+# They must still EXIST in this folder — generate_appcast reads them to sign and to
+# compute deltas — they simply must not be tracked.
+*.dmg
+*.delta
+*.zip
